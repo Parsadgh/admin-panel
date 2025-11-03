@@ -77,7 +77,7 @@ export default function UsersPage() {
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-6 text-gray-800">Users</h1>
       <p className="mt-6 mb-6 text-sm text-gray-500">
-        This table is connected to a real <span className="font-semibold text-blue-600">Firebase Firestore</span> database.
+        This table is connected to a real <span className="font-semibold text-blue-600">Firebase Firestore</span> database. (use VPN)
       </p>
       {/* Search & Add */}
       <div className="flex flex-col sm:flex-row justify-between items-center mb-6 gap-4">
@@ -207,3 +207,4 @@ export default function UsersPage() {
     </div>
   )
 }
+
